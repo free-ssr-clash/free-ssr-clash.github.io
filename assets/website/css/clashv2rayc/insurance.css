@@ -1,0 +1,603 @@
+.insurance .page-wrapper {
+  padding-top: 0px;
+}
+.insurance .main-header {
+  box-shadow: none;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+.insurance .main-header .header-top {
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+.insurance .main-header .header-top .social-box li a {
+  color: #9fb0d9;
+}
+.insurance .main-header .header-top .social-box li a:hover {
+  color: var(--main-color);
+}
+.insurance .main-header .header-top .info-list li a {
+  color: var(--color-four);
+}
+.insurance .main-header .header-top .info-list li a:hover {
+  color: var(--color-two);
+}
+.insurance .main-header .header-lower .inner-container {
+  background-color: var(--white-color);
+  border: 1px solid #e8e9e9;
+  border-radius: 10px;
+  padding-left: var(--space-30);
+  padding-right: var(--space-30);
+  transition: all 0.5s ease-in-out;
+}
+
+.insurance .main-header .main-menu .navigation > li > a {
+  color: var(--color-four);
+}
+.insurance .main-header .main-menu .navigation > li.current > a,
+.insurance .main-header .main-menu .navigation > li > a:hover {
+  color: var(--color-two);
+}
+.insurance .main-header .button-box .btn {
+  background-color: #CBD8F7;
+  color: var(--color-seven);
+}
+.insurance .main-header .button-box .btn .btn-wrap .text-one, 
+.insurance .main-header .button-box .btn .btn-wrap .text-two {
+  color: var(--color-seven);
+}
+.insurance .main-header .button-box .btn:hover .btn-wrap .text-one, 
+.insurance .main-header .button-box .btn:hover .btn-wrap .text-two {
+  color: var(--white-color);
+}
+
+.insurance .main-header .sticky-header .mobile-nav-toggler,
+.insurance .main-header .nav-outer .mobile-nav-toggler {
+  color: var(--color-seven);
+}
+
+
+.insurance .sec-title .title {
+  color: var(--main-color);
+}
+.insurance .sec-title h1 {
+  font-weight: 700;
+  color: var(--color-four);
+}
+.insurance .sec-title .separator,
+.insurance .sec-title .separator::before,
+.insurance .sec-title .separator::after {
+  background-color: var(--main-color);
+}
+
+/* Case Study Section */
+.insurance .case-study-section {
+  padding-bottom: 180px;
+}
+.insurance .case-study-section .sec-title {
+  margin-bottom: var(--space-25);
+}
+.insurance .case-study-section .sec-title .title {
+  color: var(--color-two);
+}
+.insurance .case-study-section .sec-title h1 {
+  font-size: var(--font-40);
+  line-height: var(--font-48);
+  color: var(--white-color);
+}
+.insurance .case-study-section .sec-title .text {
+  color: var(--white-color);
+}
+
+/* Case Block Style */
+.insurance .case-block{
+  position:relative;
+transition:all 0.5s ease-in-out;
+-webkit-transition:all 0.5s ease-in-out;
+-moz-transition:all 0.5s ease-in-out;
+transition:all 0.5s ease-in-out;
+}
+.insurance .case-block .inner-box{
+position:relative;
+z-index: 2;
+  border-radius: 15px;
+overflow: hidden;
+transition:all 0.5s ease-in-out;
+-webkit-transition:all 0.5s ease-in-out;
+-moz-transition:all 0.5s ease-in-out;
+transition:all 0.5s ease-in-out;
+}
+.insurance .case-block .inner-box .block-image img {
+  width: 100%;
+}
+.insurance .case-block .block-bottom {
+  position: absolute;
+  left: 22px;
+  bottom: 25px;
+  width: calc(100% - 44px);
+  overflow: hidden;
+}
+.insurance .case-block .block-bottom .front {
+  position: relative;
+  padding: var(--space-25) var(--space-25);
+  border-radius: 9px;
+  background: var(--white-color);
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+.insurance .case-block .block-bottom .front::before {
+  content: '';
+  position: absolute;
+  right: -30px;
+  bottom: -12px;
+  background-color: var(--color-two);
+  width: 100px;
+  height: 35px;
+  transform: rotate(-40deg);
+}
+.insurance .case-block .block-bottom .front::after {
+  content: '';
+  position: absolute;
+  right: -30px;
+  bottom: -13px;
+  background-color: var(--main-color);
+  width: 100px;
+  height: 20px;
+  transform: rotate(-40deg);
+}
+
+.insurance .case-block .block-bottom .back {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  transform: rotateX(-180deg);
+  padding: var(--space-25) var(--space-25);
+  border-radius: 9px;
+  background: var(--main-color);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease-in-out;
+}
+.insurance .case-block:hover .block-bottom .front {
+  opacity: 0;
+  visibility: hidden;
+  transform: rotateX(-180deg);
+}
+.insurance .case-block:hover .block-bottom .back {
+  opacity: 1;
+  visibility: visible;
+  transform: rotateX(0deg);
+}
+.insurance .case-block h5{
+  font-size: var(--font-24);
+  font-weight: 700;
+  line-height: var(--font-28);
+}
+
+.insurance .case-block h5 a{
+  position:relative;
+  color:var(--main-color);
+  transition:all 0.5s ease-in-out;
+  -webkit-transition:all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease-in-out;
+}
+.insurance .case-block .block-bottom .back a {
+  color: var(--color-two);
+}
+.insurance .case-block .text{
+  font-size: var(--font-14);
+  color: var(--color-two);
+  transition:all 0.5s ease-in-out;
+  -webkit-transition:all 0.5s ease-in-out;
+  -moz-transition:all 0.5s ease-in-out;
+  transition:all 0.5s ease-in-out;
+}
+.insurance .case-block .block-bottom .back .text {
+  color: var(--white-color);
+}
+/* Read More Button */
+.insurance .case-block a.read-more {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  font-size: var(--font-34);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white-color);
+  transition: all 0.5s ease-in-out;
+}
+.insurance .case-block a.read-more span {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  overflow: hidden;
+}
+.insurance .case-block a.read-more span i {
+  position: relative;
+  left: 0;
+  transition: all 0.5s ease-in-out;
+}
+.insurance .case-block a.read-more span .hidden {
+  position: absolute;
+  left: -110%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.insurance .case-block a.read-more:hover span .visible {
+  left: 110%;
+}
+.insurance .case-block a.read-more:hover span .hidden {
+  left: 0;
+}
+
+/* Owl Case */
+.insurance .case-list .owl-theme .case-block {
+  margin: var(--space-30) var(--space-15);
+}
+
+/* .insurance .case-carousel .owl-nav {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: auto;
+  right: auto;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  column-gap: 12px;
+  justify-content: center;
+}
+.insurance .case-carousel .owl-nav::before,
+.insurance .case-carousel .owl-nav::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: calc(50% - 90px);
+  height: 1px;
+  background-color: #E0E8F4;
+}
+.insurance .case-carousel .owl-nav::before{
+  left: 15px;
+}
+.insurance .case-carousel .owl-nav::after {
+  left: auto;
+  right: 15px;
+}
+.insurance .case-carousel .owl-nav .owl-prev, 
+.insurance .case-carousel .owl-nav .owl-next {
+  position: relative;
+  left: auto;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 100%;
+  font-size: var(--font-16);
+  box-shadow: 0px 0px 30px rgba(137, 151, 186, 0.25);
+}
+.insurance .case-carousel .owl-nav .owl-next {
+  left: auto;
+  right: auto;
+} */
+
+
+/* SUbscribe Area */
+.insurance .subscribe-area {
+  margin-top: var(--space-0);
+  color: var(--white-color);
+  background: var(--color-two);
+  padding: var(--space-20) var(--space-20);
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  top: calc(100% + 55px);
+}
+.insurance .subscribe-area .subscribe-inner {
+  border: 1px dashed var(--white-color);
+  border-radius: 10px;
+  padding: var(--space-65) var(--space-60);
+}
+
+.insurance .agent-contact .image {
+  width: 92px;
+  height: 92px;
+  line-height: 92px;
+  flex-shrink: 0;
+  background: var(--white-color);
+  border-radius: 100%;
+  text-align: center;
+  margin-right: var(--space-25);
+}
+.insurance .subscribe-area h3 {
+  margin-bottom: var(--space-10);
+}
+.insurance .subscribe-area .subscribe-form {
+  margin-top: var(--space-15);
+}
+.insurance .subscribe-area .subscribe-form .form-group input[type=email] {
+  height: 50px;
+  border-radius: 5px;
+}
+.insurance .subscribe-area .subscribe-form .form-group .btn {
+  border-radius: 0px 5px 5px 0px;
+}
+.insurance .subscribe-area .subscribe-form .form-group .btn:hover {
+  background-color: var(--main-color);
+  color: var(--color-two);
+}
+/* Our Services */
+.insurance .home-services-section {
+  padding-top: 240px;
+  padding-bottom: 140px;
+  background-position: center;
+  background-size: cover;
+}
+/* Service section  */
+.insurance .service-block {
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+.insurance .service-block .icon {
+  width: var(--space-70);
+  height: var(--space-70);
+  line-height: var(--space-70);
+  text-align: center;
+  background: var(--white-color);
+  box-shadow: 0px 10px 20px rgba(137, 151, 186, 0.2);
+  border-radius: 15px;
+  margin-bottom: var(--space-20);
+  transition: all 0.7s ease-in-out;
+}
+.insurance .service-block:hover .icon {
+  transform: rotateY(360deg);
+}
+.insurance .service-block .inner-box:hover .icon{
+  animation: none;
+  -webkit-animation: none;
+}
+.insurance .service-block h5 {
+  font-size: var(--font-18);
+  line-height: var(--font-26);
+  color: var(--color-four);
+  margin-bottom: var(--space-15);
+}
+.insurance .service-block h5 a {
+  color: var(--color-four);
+}
+
+.insurance .service-block:hover h5 a,
+.insurance .service-block h5 a:hover {
+  color: var(--main-color);
+}
+.insurance .service-block-style-two .inner-box:after {
+  content: url(/assets/website/img/clashv2rayc/shape-7.png);
+}
+
+
+/* Business Process */
+.insurance .business-process .image-column {
+  position: relative;
+}
+.insurance .business-process .image-column .inner-column {
+  position: relative;
+  z-index: 1;
+}
+.business .business-process .image-column .image {
+  transform-style: preserve-3d;
+  overflow: hidden;
+}
+.insurance .business-process .image-column::before {
+  content: url('../image/circle-layer-2.png');
+  position: absolute;
+  left: 70px;
+  top: -15px;
+}
+.insurance .business-process .sec-title {
+  margin-bottom: var(--space-20);
+}
+.insurance .business-process .text {
+  margin-bottom: var(--space-50);
+}
+
+.insurance .play-box span {
+  font-size: var(--font-26);
+  box-shadow: none;
+  position: relative;
+  width: 56px;
+  height: 56px;
+  line-height: 58px;
+  border-width: 0px;
+  background-color: var(--main-color);
+}
+.insurance .play-box span:before, 
+.insurance .play-box span:after {
+  width: 56px;
+  height: 56px;
+  -webkit-box-shadow: 0px 0px 0px 20px rgba(175, 218, 128, 0.4);
+    box-shadow: 0px 0px 0px 20px rgba(175, 218, 128, 0.4);
+    animation: ripple7 2s ease-in-out infinite;
+}
+
+.insurance .play-box span:after {
+    -webkit-box-shadow: 0px 0px 0px 40px rgba(175, 218, 128, 0.3);
+    box-shadow: 0px 0px 0px 40px rgba(175, 218, 128, 0.3);
+    -webkit-animation: ripple2 2s ease-in-out infinite;
+    animation: ripple8 2s ease-in-out infinite;
+}
+
+@keyframes ripple7 {
+    0% {box-shadow: 0px 0px 0px 0px rgba(175, 218, 128, 0.4);}
+    50% {box-shadow: 0px 0px 0px 20px rgba(175, 218, 128, 0);}
+    100% {box-shadow: 0px 0px 0px 0px rgba(175, 218, 128, 0);}
+}
+@keyframes ripple8 {
+    0% {box-shadow: 0px 0px 0px 20px rgba(175, 218, 128, 0.3);}
+    50% {box-shadow: 0px 0px 0px 40px rgba(175, 218, 128, 0);}
+    100% {box-shadow: 0px 0px 0px 0px rgba(175, 218, 128, 0);}
+}
+
+.insurance .business-process .content-column .inner-column {
+  padding-right: 70px;
+}
+.insurance .business-process .sec-title .title {
+  font-family: var(--font-family-heading);
+}
+
+/* About Section */
+.insurance .counter-box.style-two {
+  padding: var(--space-0) var(--space-0);
+}
+.insurance .counter-box.style-two .counter-column {
+  display: inline-block;
+  min-width: 245px;
+  width: 100%;
+  background-color: var(--color-two);
+  padding: var(--space-25) var(--space-15);
+  margin-bottom: var(--space-15);
+  border-radius: var(--space-20);
+}
+.insurance .counter-box.style-two .counter {
+  font-size: var(--font-48);
+  font-weight: 700;
+  color: var(--white-color);
+}
+.insurance .counter-box.style-two h6 {
+  font-size: var(--font-20);
+  font-weight: 700;
+  line-height: var(--font-28);
+  margin-top: var(--space-0);
+  padding-bottom: var(--space-0);
+}
+.insurance .counter-box.style-two h6:before {
+  display: none;
+}
+
+.insurance .about-section .work-list {
+  background-color: #f6f5fb;
+  border-left-color: var(--main-color);
+  padding: var(--space-15) var(--space-30);
+  margin-top: var(--space-30);
+}
+.insurance .author-block {
+  padding: var(--space-25) var(--space-0);
+  border-top: 1px solid #d9e3e4;
+  border-bottom: 1px solid #d9e3e4;
+}
+.insurance .author-block .author-profile h4 {
+  font-size: var(--font-24);
+  font-weight: 700;
+}
+.insurance .author-block .author-profile p {
+  color: var(--main-color);
+}
+
+
+/* Testimonial */
+.insurance .testimonial-section .sec-title .separator, 
+.insurance .testimonial-section .sec-title .separator::before, 
+.insurance .testimonial-section .sec-title .separator::after {
+  background-color: var(--color-two);
+}
+.insurance .testimonial-section .title-column .inner-column {
+  padding-top: var(--space-80);
+}
+.insurance .testimonial-section .carousel-column .owl-dots {
+  display: inline-block;
+  left: 322px;
+}
+.insurance .testimonial-block .lower-box {
+  background-color: var(--color-two);
+}
+.insurance .testimonial-block .rating {
+  font-weight: 700;
+  color: var(--color-four);
+}
+.insurance .testimonial-block .lower-box .author-box strong {
+  color: var(--color-four);
+}
+.insurance .testimonial-block .lower-box .quote {
+  background-color: var(--main-color);
+}
+
+/* News Block */
+.insurance .news-block .post-date {
+  background-color: var(--main-color);
+}
+.insurance .news-block .author-box strong,
+.insurance .news-block h5 a {
+  color: var(--color-four);
+}
+.insurance .news-block h5 a:hover {
+  color: var(--color-two);
+}
+
+
+/* Contact Section */
+.insurance .home-contact-section {
+background-position: center;
+background-size: cover;
+}
+.insurance .home-contact-section .sec-title .title {
+  font-size: var(--font-14);
+  font-weight: 400;
+  color: var(--color-four);
+}
+.insurance .home-contact-section .default-form .care-imagebox img {
+  max-width: max-content;
+}
+.insurance .home-contact-section .default-form form {
+  max-width: 470px;
+  background-color: var(--white-color);
+  border-radius: 15px;
+  padding: var(--space-50);
+  margin-bottom: var(--space-90);
+}
+.insurance .default-form .form-control {
+  background-color: #f5f9ff;
+}
+.insurance .home-contact-section .default-form textarea.form-control {
+  height: 58px;
+  padding: 8px 22px;
+}
+
+/* FAQ */
+.insurance .accordion-button:not(.collapsed),
+.insurance .accordion-body {
+  background-color: #f5f9ff;
+}
+
+/* Footer */
+.insurance .main-footer {
+  background-color: #1f164e;
+}
+
+/* Sidebar  */
+.insurance .widget_tag_cloud a {
+  background-color: #f5f9ff;
+}
+.insurance .widget_tag_cloud a:hover {
+  background-color: var(--color-two);
+}
+
+/* Page Header */
+.insurance .page_header {
+  background-image: url(/assets/website/img/clashv2rayc/33.jpg);
+  padding: 200px 0px 100px 0px;
+}
+.insurance .page_header::before {
+  display: none;
+}
+.insurance .page_header .breadcrumb li,
+.insurance .page_header .breadcrumb li a {
+  color: var(--main-color);
+}
+.insurance .page_header .breadcrumb li.active,
+.insurance .page_header .breadcrumb li a:hover {
+  color: var(--color-two);
+}

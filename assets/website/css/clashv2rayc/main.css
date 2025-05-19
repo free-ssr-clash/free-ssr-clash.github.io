@@ -1,0 +1,33 @@
+/* Jackcerra Business HTML Template */
+
+@import url('css2.css');
+
+@import url('bootstrap.css');
+@import url('global.css');
+@import url('header.css');
+@import url('footer.css');
+@import url('bootstrap-icons.css');
+@import url('font-awesome.css');
+@import url('animate.css');
+@import url('owl.css');
+@import url('jquery-ui.css');
+@import url('preloader.css');
+@import url('custom-animate.css');
+@import url('magnific-popup.css');
+@import url('odometer-theme-default.css');
+@import url('apexcharts.css');
+@import url('ma5-menu.css');
+
+@import url('breadcrumb.css');
+@import url('style.css');
+@import url('sidebar.css');
+@import url('team.css');
+@import url('testimonial.css');
+@import url('blog.css');
+@import url('contact.css');
+
+@import url('business.css');
+@import url('insurance.css');
+@import url('investment.css');
+
+@import url('responsive.css');

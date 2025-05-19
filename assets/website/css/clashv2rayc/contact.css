@@ -1,0 +1,111 @@
+.contact-section {
+    padding: var(--space-120) var(--space-50);
+}
+.contact-section.home {
+    padding: var(--space-0);
+    background-image: url(/assets/website/img/clashv2rayc/16.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact-section.home .contact-form {
+    background: none;
+    box-shadow: none;
+    padding: var(--space-0);
+}
+.contact-section.home .contact-form form {
+    padding: var(--space-100) var(--space-35);
+}
+.contact-section.home .contact-form .btn-submit { 
+    width: 270px;
+}
+
+.contact-box {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--white-color);
+    border: 1px solid #e1e9f4;
+    border-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: var(--space-15);
+}
+.contact-box:hover {
+    border-color: transparent;
+    box-shadow: 0px 10px 60px rgba(137, 151, 186, 0.15);
+}
+.contact-box .box-image {
+    overflow: hidden;
+    background-color: var(--color-two);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.contact-box .box-image img {
+    width: 100%;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.contact-box:hover .box-image img {
+    opacity: 0.70;
+    transform: scale(1.04,1.04) rotate(1deg);
+}
+
+.contact-box .contact-box-inner {
+    position: relative;
+    padding: var(--space-60) var(--space-50);
+    padding-top: var(--space-0);
+    text-align: center;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact-box .contact-box-inner .content h5 {
+    margin-bottom: var(--space-25);
+}
+
+.contact-box .contact-box-inner .content p {
+  font-size: var(--font-18);
+  line-height: 28px;
+  color: var(--color-six);
+  margin-bottom: 0;
+}
+
+.contact-box .contact-box-inner .image {
+    position: relative;
+    background-color: var(--white-color);
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(137, 151, 186, 0.2);
+    margin: -45px auto 25px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.contact-box:hover .contact-box-inner .image img {
+    animation: rotateme3 0.8s ease-in-out;
+    -webkit-animation: rotateme3 0.8s ease-in-out;
+}
+
+.contact-box .contact-box-inner .image img {
+    margin: 0 auto;
+}
+
+.contact-form {
+    background-image: url('../image/6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+    margin-top: var(--space-35);
+    padding: var(--space-100) var(--space-15);
+    box-shadow: 0px 10px 60px rgba(137, 151, 186, 0.15);
+}
+.contact-form .btn-submit {
+    width: 370px;
+    max-width: 100%;
+    margin-top: var(--space-15);
+}

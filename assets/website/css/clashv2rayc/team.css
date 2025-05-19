@@ -1,0 +1,145 @@
+.team-section {
+    position: relative;
+    padding-top: var(--space-80);
+    padding-bottom: var(--space-90);
+}
+.team-section.home::before{
+	content: url(/assets/website/img/clashv2rayc/circle-half-right.png);
+    position: absolute;
+    right: calc(100% - 210px);
+    bottom: 0;
+    z-index: -2;
+}
+.team-style-one {
+    margin-bottom: var(--space-30);
+}
+.teambox {
+    position: relative;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+}
+
+.teambox img {
+    width: 100%;
+}
+
+.teambox .teambox-inner {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+}
+
+.teambox .teambox-inner .team-social {
+    transform: perspective(250px) rotateX(180deg);
+    transform-origin: bottom;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+}
+
+.teambox:hover .teambox-inner .team-social {
+    transform: perspective(250px) rotateX(0deg);
+}
+
+.teambox .teambox-inner .team-social ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+}
+.teambox .teambox-inner .team-social li {
+    display: inline-block;
+}
+
+.teambox .teambox-inner .team-social li a {
+    background-color: var(--white-color);
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-14);
+    color: var(--color-two);
+    border-radius: 100%;
+}
+
+.teambox .teambox-inner .team-social li a:hover {
+    background-color: var(--color-two);
+    color: var(--white-color);
+}
+
+.teambox .teambox-inner .teambox-intro {
+    background-color: var(--white-color);
+    position: relative;
+    padding: var(--space-15) var(--space-0);
+    width: calc(100% - 32px);
+    margin: 0 auto;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+}
+
+.teambox:hover .teambox-inner .teambox-intro {
+    width: calc(100% - 16px);
+    margin-top: 20px;
+}
+
+.teambox .teambox-inner .teambox-intro p{
+    font-size: var(--font-16);
+    line-height: 24px;
+    color: var(--color-two);
+    margin-bottom: var(--space-0);
+}
+
+.teambox .teambox-inner .teambox-intro::before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: 0;
+    bottom: 0;
+    width: 8px;
+    background-color: var(--color-two);
+    transform: perspective(250px) rotateY(-90deg);
+    transform-origin: right;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+}
+
+.teambox:hover .teambox-inner .teambox-intro::before {
+    transform: perspective(250px) rotateY(0deg);
+}
+
+.teambox .teambox-inner .teambox-intro::after {
+    content: '';
+    position: absolute;
+    right: -8px;
+    top: 0;
+    bottom: 0;
+    width: 8px;
+    background-color: var(--color-two);
+    transform: perspective(250px) rotateY(-90deg);
+    transform-origin: left;
+	transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+}
+
+.teambox:hover .teambox-inner .teambox-intro::after {
+    transform: perspective(250px) rotateY(0deg);
+}

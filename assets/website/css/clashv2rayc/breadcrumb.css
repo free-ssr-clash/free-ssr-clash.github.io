@@ -1,0 +1,105 @@
+/*---------- Breadcrumb Section ------------*/
+.page_header {
+    position: relative;
+    background-image: url("/assets/website/img/clashv2rayc/5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 150px 0px 150px 0px;
+    overflow: hidden;
+}
+
+.page_header::before {
+    position: absolute;
+    content: url("/assets/website/img/clashv2rayc/shape-1.png");
+    z-index: 1;
+    left: 0;
+    top: 0;
+    animation: headerobject-move1 4s;
+}
+
+@keyframes headerobject-move1 {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -50px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@keyframes headerobject-move2 {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: -50px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+  
+
+.page_header .page_header_content {
+    position: relative;
+    z-index: 2;
+}
+.page_header .page_header_content .heading {
+  position: relative;
+  font-size: var(--font-60);
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: var(--black-color);
+}
+
+.page_header .breadcrumb {
+  padding: 10px 0px 0px 0px;
+  margin-bottom: 0;
+  list-style: none;
+  display: block;
+  background: transparent;
+}
+
+.page_header .breadcrumb li {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--color-three);
+}
+
+.page_header .breadcrumb li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.page_header .breadcrumb li:after {
+  content: '\f105';
+  font-family: 'FontAwesome';
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.page_header .breadcrumb li:last-child:after {
+  display: none;
+}
+
+.page_header .breadcrumb li a {
+  color: var(--color-three);
+}
+
+.page_header .breadcrumb li a:hover {
+  color: var(--main-color);
+}
+
+.page_header .breadcrumb li.active {
+  color: var(--color-two);
+}

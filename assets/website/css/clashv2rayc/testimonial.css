@@ -1,0 +1,49 @@
+.testi-wrap {
+	position: relative;
+	height: 570px;
+    color: var(--white-color);
+}
+
+
+.client-info,
+.client-comment {
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+
+/* End First Style */
+
+.client-img {
+    width: 130px;
+    border-radius: 50%;
+    border: 3px solid var(--color-two);
+    cursor: pointer;
+    overflow: hidden;
+}
+.client-img img {
+    width: 100%;
+}
+.client-comment {
+	padding: 0 30px;
+    margin-top: var(--space-35);
+    margin-bottom: var(--space-35);
+}
+.client-comment p {
+    font-size: var(--font-20);
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--white-color);
+    font-style: italic;
+    margin-bottom: var(--space-0);
+}
+.client-info h6 {
+    font-family: var(--font-family-body);
+    font-size: var(--font-17);
+    font-weight: 400;
+    line-height: 27px;
+    color: #E1E9F4;
+}
+.client-info .icon {
+    margin-top: var(--space-30);
+}

@@ -1,0 +1,552 @@
+/* Jackcerra Business HTML-5 Template */
+@media only screen and (max-width: 1199px){
+	.service-block-style-two .inner-box {
+		min-height: auto;
+	}
+	.service-block-style-two .text {
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	ul.wp-block-latest-posts li .latest-posts-image {
+		width: 100px;
+	}
+	ul.wp-block-latest-posts li h5 {
+		word-break: break-all;
+	}
+	.investment .company-growth .inner-container .sec-title h1 {
+		margin-bottom: var(--space-10)
+	}
+	.investment .company-growth .inner-container .sec-title h1 span.achieve-count {
+		font-size: 60px;
+	}
+	.investment .main-header .button-box {
+		display: none;
+	}
+	.investment .main-header .aside_open {
+		margin-left: var(--space-20);
+	}
+}
+
+
+@media only screen and (max-width: 1140px){
+	h1{
+		font-size: var(--font-36);
+		line-height: 42px;
+	}
+	.services-section .form-column .inner-column{
+		margin-left:var(--space-0);
+	}
+	
+	.business-section .upper-box h1{
+		padding:var(--space-0);
+	}
+	
+	.business-section-two .graph-image{
+		left:0px;
+	}
+	
+	.testimonial-block .lower-box .author-box strong{
+		font-size:var(--font-16);
+	}
+	
+	.testimonial-block .lower-box .author-box .designation{
+		font-size:var(--font-14);
+	}
+	
+	.testimonial-block .upper-box{
+		padding:30px 25px;
+	}
+	
+	.news-block .author-box{
+		padding:15px 25px;
+	}
+	
+	.news-block .lower-box{
+		padding:15px 25px 25px;
+	}
+	
+	.service-block .text{
+		padding-right:var(--space-0);
+	}
+	
+	.business-section .content-column .inner-column{
+		padding:80px 20px;
+	}
+	
+	.process-block .text{
+		font-size:var(--font-16);
+	}
+	
+	.main-footer .upper-box .info-column .inner-column{
+		padding: 30px 0px 30px 30px;
+	}
+	
+	.main-footer .upper-box .info-column .button-box{
+		margin-top:var(--space-20);
+	}
+	
+	.news-section .owl-nav{
+		position:relative;
+		left:0px;
+		right:0px;
+		text-align:center;
+		margin-top:var(--space-0);
+		margin-top:var(--space-20);
+	}
+	
+	.news-section .owl-nav .owl-prev,
+	.news-section .owl-nav .owl-next{
+		position:relative;
+		margin:0px 7px;
+		display:inline-block;
+	}
+
+	.main-footer .upper-box .info-column .pattern-layer {
+		background-size: cover;
+    	background-position: center;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 1023px){
+	
+	.main-header .main-box .logo-box {
+		position:relative;
+		left:0px;
+		top:0px;
+		right:0px;
+		bottom:0px;
+		margin:0px;
+		text-align:left;
+	}
+	
+	.main-menu .navigation > li > a{
+		font-size:14px;
+	}
+	
+	.main-header .main-menu .navigation > li{
+		margin-right:var(--space-25);
+	}
+	
+	.main-header .header-upper .logo-box{
+		margin: 0px;
+		padding:0px;
+	}
+	
+	.main-header .sticky-header .logo{
+		padding:10px 0px 10px;
+	}
+	
+	.main-menu .navigation > li > a{
+		text-transform:capitalize;
+	}
+	
+	.main-header .main-menu .navigation > li > a{
+		padding:20px 0px;
+	}
+	
+	.mCSB_inside > .mCSB_container{
+		margin-right:var(--space-0);
+	}
+	
+	.main-header .button-box {
+		margin-left: var(--space-20);
+	}
+	
+	.main-header .logo-box{
+		padding:15px 0px;
+	}
+	
+	.main-header .header-top .info-list li{
+		margin-right:var(--space-15);
+	}
+	
+	.main-slider .image{
+		margin-left:var(--space-0);
+	}
+	
+	.main-slider .content-column{
+		order:1;
+		margin-bottom:var(--space-35);
+	}
+	
+	.business-section-two .content-column{
+		margin-bottom:var(--space-30);
+	}
+	
+	.main-slider .image-column{
+		order:2;
+	}
+	
+	.services-section .sec-title .text br{
+		display:none;
+	}
+	
+	.services-section .sec-title .text{
+		line-height:32px;
+		margin-top:var(--space-30);
+	}
+	
+	.business-section .content-column .inner-column{
+		padding:30px 20px;
+	}
+	
+}
+
+
+@media only screen and (min-width: 992px){
+	.business .home-services-section .inner-column .row {
+		flex-wrap: nowrap;
+	}
+}
+@media only screen and (max-width: 991px){
+	.second-slider .slide .slide-inner::before,
+	.second-slider .slide .slide-inner::after{
+		max-width: 600px;
+		max-height: 500px;
+	}
+	.second-slider .active .slide .slide-inner::before {
+		right: 47%;
+	}
+	.second-slider .content-column{
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+	.second-slider .content-column::before,
+	.second-slider .content-column::after{
+		max-width: 250px;
+		max-height: 400px;
+	}
+	.second-slider .active .content-column::after {
+		left: 70%;
+	}
+
+	.third-slider .active .content-column .content-image-layer {
+		left: 70%;
+	}
+	.slide .slide-inner br {
+		display: none;
+	}
+	.main-header.two .header-top {
+		padding: 10px 0px;
+	}
+	.business-section-three .service-block-style-two.all-services-link h5 {
+		font-size: var(--font-20);
+		line-height: var(--font-26);
+	}
+	.business-section-three .content-column .inner-column {
+		padding: var(--space-30) var(--space-15);
+	}
+
+	/* Investment Page */
+	.investment .business-section-four .image-column {
+		order: 2;
+		margin-top: var(--space-50);
+	}
+
+	.business-section-four::before {
+		right: 0;
+		top: auto;
+	}
+	.business .counter-box .counter {
+		font-size: var(--font-36);
+	}
+	.business .counter-box h6 {
+		margin-top: var(--space-5);
+	}
+	.second-slider .slide {
+		padding-top: var(--space-0);
+	}
+	.third-slider h1,
+	.fourth-slider h1 {
+		font-size: var(--font-42);
+		line-height: var(--font-48);
+	}
+	.fourth-slider .content-column {
+		padding-top: 150px;
+		padding-bottom: 100px;
+	}
+	.business-section .inner-container .video-post {
+		margin-top: var(--space-30);
+	}
+	.business .business-case-carousel .owl-dots {
+		right: auto;
+		bottom: -30px;
+	}
+	.content-column.ps-0 {
+		padding-left: 15px !important;
+	}
+	.business .home-services-section .inner-column .row {
+		padding: 0px 15px;
+	}
+	.business .business-process .image-column {
+		margin-bottom: var(--space-20);
+	}
+	.business .testimonial-section .title-column.p-0 {
+		padding: var(--space-0) var(--space-15) !important;
+	}
+	.page_header .page_header_content .heading {
+		font-size: var(--font-36);
+		line-height: var(--font-44);
+	}
+	.page_header .breadcrumb li {
+		font-size: var(--font-16);
+	}
+
+	.main-slider .slide {
+		padding: 150px 0px;
+	}
+
+	.investment .company-growth .inner-container .sec-title h1 span.achieve-count {
+		font-size: 40px;
+	}
+	.our-clients {
+		gap: 30px;
+	}
+
+	.insurance .testimonial-section .title-column .inner-column {
+		padding-top: var(--space-0);
+	}
+	.insurance .testimonial-section .carousel-column .owl-dots {
+		left: 0;
+	}
+	.insurance .case-study-section {
+		padding-bottom: 100px;
+	}
+	.insurance .subscribe-area {
+		position: relative;
+	}
+	.insurance .subscribe-area .subscribe-inner {
+		padding: var(--space-50) var(--space-50);
+	}
+	.insurance .home-services-section {
+		padding-top: 100px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	
+	.mCSB_inside > .mCSB_container{
+		margin-right:0px;
+	}
+
+
+	.sec-title h1 br{
+		display:none;
+	}
+
+	.about-section .image-column .image img {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.about-section .content-column {
+		margin-top: var(--space-15);
+	}
+
+	.business-section .image-column .image img {
+		width: 100%;
+		max-width: 100%;
+	}
+	.business-section-three .image-column .image img {
+		width: 100%;
+		max-width: 100%;
+		border-radius: 15px;
+	}
+	.business-section-three .content-column .inner-column {
+		padding: var(--space-40) var(--space-30);
+	}
+	
+	.user-group .rating-point {
+		margin-top: var(--space-15);
+	}
+	.testimonial-block .lower-box{
+		padding:42px 20px 20px;
+	}
+	
+	.main-footer .footer-bottom .copyright{
+		margin-bottom:var(--space-15);
+	}
+	
+	.testimonial-section .title-column .inner-column{
+		padding-top:var(--space-0);
+	}
+	
+	
+	.client-img {
+		width: 80px;
+	}
+	.contact-section.home {
+		background: #fbfbfb;
+	}
+
+	.insurance .contact-section .default-form form {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/* Investment */
+	.call-to-action .call-to-action-inner {
+		width: calc(100% - 60px);
+		left: 30px;
+	}
+	.investment .counter-box {
+		display: flex;
+		column-gap: 15px;
+		justify-content: center;
+	}
+	.investment .counter-box .counter-column {
+		flex-shrink: 0;
+	}
+	.investment .business-section-four .image-column .inner-column {
+		text-align: center;
+	}
+	.investment .sec-title h1 {
+		font-size: var(--font-30);
+		line-height: var(--font-36);
+	}
+	.company-growth .inner-container {
+		padding: var(--space-30);
+	}
+}
+
+@media only screen and (max-width: 599px){
+	.sec-title .title,
+	.main-slider .title{
+		letter-spacing:0px;
+	}
+	.second-slider br,
+	.second-slider .slide .slide-inner::before,
+	.second-slider .slide .slide-inner::after,
+	.second-slider .content-column::before,
+	.second-slider .content-column::after{
+		display: none;
+	}
+
+	.fourth-slider br,
+	.fourth-slider .slide .slide-inner::before,
+	.fourth-slider .slide .slide-inner::after{
+		display: none;
+	}
+
+	.main-header .header-top .left-box{
+		text-align:center;
+	}
+	
+	.main-header .header-top .info-list li:last-child{
+		display:none;
+	}
+	
+	.business-section-two .experiance-layer{
+		right:0px;
+		left:auto;
+	}
+	.business-section-three .image-layer-bottom {
+		height: 20%;
+	}
+	.why-choose-section .image-column .image::before,
+	.why-choose-section .image-column .image::after {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	.third-slider br,
+	.third-slider .slide .slide-inner::before,
+	.third-slider .slide .slide-inner::after,
+	.third-slider .content-column::before,
+	.third-slider .content-column::after{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+	.second-slider .button-box {
+		justify-content: center;
+	}
+
+	h3 {
+		line-height: 34px;
+		font-size: var(--font-24);
+	}
+	
+	.text,
+	.main-footer .links li a,
+	.main-footer .contact-list li,
+	.feature-block .inner-box{
+		font-size: var(--font-16);
+	}
+	
+	.services-section .form-column .form-box{
+		padding:25px 20px 30px;
+	}
+	
+	.main-slider .button-box .btn{
+		margin-bottom:var(--space-15)
+	}
+	
+	.business-section-two .circle-image,
+	.business-section-two .experiance-layer,
+	.business-section-two .title-box h1 br,
+	.business-section .content-column .title-box h3 br{
+		display:none;
+	}
+	
+	.business-section-two .play-box{
+		margin-left:var(--space-0);
+		margin-top:var(--space-25);
+	}
+	
+	.business-section-two .circle-image{
+		transform:scale(0.5,0.5);
+	}
+	.feature-block .icon,
+	.feature-block.two .icon {
+		position: relative;
+		display: inline-block;
+		margin-bottom: var(--space-15);
+	}
+	.feature-block .inner-box {
+		padding-left: var(--space-0);
+	}
+	
+	.main-footer .social-box li{
+		margin-left:var(--space-0);
+	}
+	.business-section .play-box {
+		margin-top: var(--space-30);
+	}
+
+	.client-comment {
+		padding: 0px 0px;
+	}
+	.subscribe-area h2 {
+		font-size: var(--font-30);
+		line-height: var(--font-34);
+	}
+	.subscribe-area .subscribe-form .form-group .btn {
+		position: relative;
+		top: 10px;
+		border-radius: 15px;
+	}
+	.insurance .subscribe-area .subscribe-form .form-group .btn {
+		position: relative;
+		top: 10px;
+		border-radius: 5px;
+	}
+	.play-box {
+		margin-left: var(--space-0);
+		margin-top: var(--space-20);
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.main-header .header-top .left-box,
+	.main-header .header-top .right-box {
+		justify-content: center;
+		width: 100%;
+	}
+}
