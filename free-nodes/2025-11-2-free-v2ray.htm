@@ -305,6 +305,7 @@ V2Ray daily </span><span><span class="hljs-keyword">update</span></span><span>
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2025-11-1-free-v2ray-subscribe.htm">Free SSR Clash - 11月1日20.8M/S|免费SSR节点/Shadowrocket节点/Clash节点/Singbox节点/V2ray节点节点订阅分享</a></p>
+        <p>下一个：<a href="/free-nodes/2025-11-3-node-share-links.htm">Free SSR Clash - 11月3日21.8M/S|免费Clash节点/SSR节点/Shadowrocket节点/V2ray节点/Singbox节点节点订阅分享</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
@@ -318,24 +319,9 @@ V2Ray daily </span><span><span class="hljs-keyword">update</span></span><span>
         全局代理将所有流量通过节点转发，适合游戏或全局科学上网；规则代理只针对指定应用、IP 或端口走节点，可优化带宽使用和访问效率，用户可根据需求灵活选择模式。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>WinXray 的本地 PAC 模式与全局模式有什么区别？</h5></div>
+    <div class="panel-heading"><h5>如何配置 Clash 以支持局域网内设备共享代理？</h5></div>
     <div class="panel-body">
-        PAC 模式通过规则文件自动判定哪些域名走代理，能兼顾速度与便利；全局模式则所有流量都通过代理，适合调试或访问被完全屏蔽的网络。两者可在界面一键切换，根据需求灵活选择。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 节点分组如何保证低延迟？</h5></div>
-    <div class="panel-body">
-        将节点按延迟、地区或用途分组，并启用策略组，系统会根据节点延迟和健康状态自动选择最佳节点。保证网页浏览、视频播放和游戏流量的低延迟和稳定连接。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>VLESS + XTLS 如何在高延迟网络中优化连接？</h5></div>
-    <div class="panel-body">
-        XTLS 模式通过减少握手和加密开销降低延迟。结合策略组和多节点切换，可在高延迟或不稳定网络环境下保证网页浏览、视频播放和游戏连接稳定，提高整体体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Surfboard 能否同步 Quantumult X 的规则？</h5></div>
-    <div class="panel-body">
-        Surfboard 的规则语法与 Quantumult X 相似，但并非完全兼容。部分策略组或脚本需手动修改格式方能正常使用，因此不建议直接复制，最好通过转换工具处理。<hr />    </div>
+        启用 Clash 的 HTTP/SOCKS5 本地监听并在局域网设备上设置该代理地址为网关；若使用 TUN 模式需配合路由器或透明代理实现全局共享，注意开启访问控制避免未经授权的外部访问。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Nekobox 可以自定义路由规则吗？</h5></div>
@@ -343,9 +329,14 @@ V2Ray daily </span><span><span class="hljs-keyword">update</span></span><span>
         支持。用户可通过界面或配置文件定义路由规则，按域名、IP 或端口匹配不同节点，实现流量分流。自定义规则增强了网络访问灵活性和安全性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>VMess 的多路复用在短连接环境下有什么优势？</h5></div>
+    <div class="panel-heading"><h5>VLESS + XTLS 如何在高延迟网络中优化连接？</h5></div>
     <div class="panel-body">
-        多路复用可将多个短连接共享同一 TCP 或 QUIC 隧道，减少重复握手和延迟。适合高频短连接的应用场景，如即时通讯、游戏或网页频繁请求，提升整体响应速度。<hr />    </div>
+        XTLS 模式通过减少握手和加密开销降低延迟。结合策略组和多节点切换，可在高延迟或不稳定网络环境下保证网页浏览、视频播放和游戏连接稳定，提高整体体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>WinXray 的本地 PAC 模式与全局模式有什么区别？</h5></div>
+    <div class="panel-body">
+        PAC 模式通过规则文件自动判定哪些域名走代理，能兼顾速度与便利；全局模式则所有流量都通过代理，适合调试或访问被完全屏蔽的网络。两者可在界面一键切换，根据需求灵活选择。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Clash for Android 如何导入订阅并自动更新？</h5></div>
@@ -353,9 +344,19 @@ V2Ray daily </span><span><span class="hljs-keyword">update</span></span><span>
         在 Clash for Android 的配置界面中选择“配置文件”→“新建配置”，粘贴订阅链接即可。启用自动更新功能后，软件会定期检查订阅源是否有新节点，并在后台自动替换旧配置，保持节点最新状态。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>如何配置 Clash 以支持局域网内设备共享代理？</h5></div>
+    <div class="panel-heading"><h5>Mihomo 节点分组如何保证低延迟？</h5></div>
     <div class="panel-body">
-        启用 Clash 的 HTTP/SOCKS5 本地监听并在局域网设备上设置该代理地址为网关；若使用 TUN 模式需配合路由器或透明代理实现全局共享，注意开启访问控制避免未经授权的外部访问。    </div>
+        将节点按延迟、地区或用途分组，并启用策略组，系统会根据节点延迟和健康状态自动选择最佳节点。保证网页浏览、视频播放和游戏流量的低延迟和稳定连接。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Surfboard 能否同步 Quantumult X 的规则？</h5></div>
+    <div class="panel-body">
+        Surfboard 的规则语法与 Quantumult X 相似，但并非完全兼容。部分策略组或脚本需手动修改格式方能正常使用，因此不建议直接复制，最好通过转换工具处理。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>VMess 的多路复用在短连接环境下有什么优势？</h5></div>
+    <div class="panel-body">
+        多路复用可将多个短连接共享同一 TCP 或 QUIC 隧道，减少重复握手和延迟。适合高频短连接的应用场景，如即时通讯、游戏或网页频繁请求，提升整体响应速度。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -384,16 +385,16 @@ V2Ray daily </span><span><span class="hljs-keyword">update</span></span><span>
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2025-10-8-free-v2ray.htm" title="Free SSR Clash - 10月8日19M/S|免费Clash节点/SSR节点/V2ray节点/Shadowrocket节点/Singbox节点节点订阅分享">Free SSR Clash - 10月8日19M/S|免费Clash节点/SSR节点/V2ray节点/Shadowrocket节点/Singbox节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-5-free-v2ray.htm" title="Free SSR Clash - 10月5日18.6M/S|免费Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Clash节点节点订阅分享">Free SSR Clash - 10月5日18.6M/S|免费Singbox节点/V2ray节点/SSR节点/Shadowrocket节点/Clash节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-22-clash-v2ray-ss-ssr.htm" title="Free SSR Clash - 10月22日22M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点节点订阅分享">Free SSR Clash - 10月22日22M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-24-free-v2ray.htm" title="Free SSR Clash - 10月24日18.6M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/V2ray节点节点订阅分享">Free SSR Clash - 10月24日18.6M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/V2ray节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-25-free-high-speed-nodes.htm" title="Free SSR Clash - 10月25日22M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Clash节点/Singbox节点节点订阅分享">Free SSR Clash - 10月25日22M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Clash节点/Singbox节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-4-free-node-subscribe-links.htm" title="Free SSR Clash - 10月4日21.5M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点节点订阅分享">Free SSR Clash - 10月4日21.5M/S|免费Singbox节点/Clash节点/Shadowrocket节点/SSR节点/V2ray节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-31-free-node-subscribe.htm" title="Free SSR Clash - 10月31日21.2M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点节点订阅分享">Free SSR Clash - 10月31日21.2M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-21-free-node-subscribe.htm" title="Free SSR Clash - 10月21日20.7M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点节点订阅分享">Free SSR Clash - 10月21日20.7M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点节点订阅分享</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-10-19-free-v2ray.htm" title="Free SSR Clash - 10月19日22.8M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/Clash节点/SSR节点节点订阅分享">Free SSR Clash - 10月19日22.8M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/Clash节点/SSR节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-17-free-v2ray.htm" title="Free SSR Clash - 10月17日21M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点节点订阅分享">Free SSR Clash - 10月17日21M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-9-clash-v2ray-ss-ssr.htm" title="Free SSR Clash - 10月9日20.7M/S|免费Clash节点/Shadowrocket节点/SSR节点/V2ray节点/Singbox节点节点订阅分享">Free SSR Clash - 10月9日20.7M/S|免费Clash节点/Shadowrocket节点/SSR节点/V2ray节点/Singbox节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-8-free-high-speed-nodes.htm" title="Free SSR Clash - 11月8日19.8M/S|免费Singbox节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点节点订阅分享">Free SSR Clash - 11月8日19.8M/S|免费Singbox节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-11-free-v2ray-subscribe.htm" title="Free SSR Clash - 10月11日22.1M/S|免费Clash节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点节点订阅分享">Free SSR Clash - 10月11日22.1M/S|免费Clash节点/V2ray节点/SSR节点/Singbox节点/Shadowrocket节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-7-node-share.htm" title="Free SSR Clash - 11月7日23M/S|免费V2ray节点/Clash节点/SSR节点/Singbox节点/Shadowrocket节点节点订阅分享">Free SSR Clash - 11月7日23M/S|免费V2ray节点/Clash节点/SSR节点/Singbox节点/Shadowrocket节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-21-free-node-subscribe.htm" title="Free SSR Clash - 10月21日20.7M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点节点订阅分享">Free SSR Clash - 10月21日20.7M/S|免费Shadowrocket节点/Clash节点/Singbox节点/V2ray节点/SSR节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-1-free-v2ray-subscribe.htm" title="Free SSR Clash - 11月1日20.8M/S|免费SSR节点/Shadowrocket节点/Clash节点/Singbox节点/V2ray节点节点订阅分享">Free SSR Clash - 11月1日20.8M/S|免费SSR节点/Shadowrocket节点/Clash节点/Singbox节点/V2ray节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-31-free-node-subscribe.htm" title="Free SSR Clash - 10月31日21.2M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点节点订阅分享">Free SSR Clash - 10月31日21.2M/S|免费SSR节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-23-free-subscribe-node.htm" title="Free SSR Clash - 10月23日19M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点节点订阅分享">Free SSR Clash - 10月23日19M/S|免费SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-24-free-v2ray.htm" title="Free SSR Clash - 10月24日18.6M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/V2ray节点节点订阅分享">Free SSR Clash - 10月24日18.6M/S|免费Shadowrocket节点/Singbox节点/Clash节点/SSR节点/V2ray节点节点订阅分享</a></li>
                     </ul>
     </div>
 </div>
@@ -405,7 +406,7 @@ V2Ray daily </span><span><span class="hljs-keyword">update</span></span><span>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">2</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">8</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
