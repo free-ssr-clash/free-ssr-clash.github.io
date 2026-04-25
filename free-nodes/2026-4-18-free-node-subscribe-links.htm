@@ -159,17 +159,43 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2026-4-17-free-node-subscribe.htm">Free SSR Clash - 4月17日22.1M/S|免费SSR节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/Trojan节点节点订阅分享</a></p>
+        <p>下一个：<a href="/free-nodes/2026-4-19-free-node-subscribe.htm">Free SSR Clash - 4月19日18.4M/S|免费Shadowrocket节点/V2ray节点/Trojan节点/Clash节点/SSR节点/Singbox节点节点订阅分享</a></p>
     </div>
 <h4>FAQ</h4>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>SSR 的加密方式推荐使用哪种？</h5></div>
+    <div class="panel-body">
+        SSR 支持多种加密方式，如 aes-256-cfb、chacha20、rc4-md5 等。建议优先选择 chacha20 系列算法，在移动设备上性能更佳，同时具有较强的安全性。<hr />    </div>
+</div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>VLESS + Reality 与 Trojan 在性能上差异大吗？</h5></div>
     <div class="panel-body">
         两者性能相近。VLESS + Reality 伪装更自然，适合强封锁地区；Trojan 则依托标准 TLS 实现高速连接。选择取决于服务器支持与环境稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 的加密方式推荐使用哪种？</h5></div>
+    <div class="panel-heading"><h5>Sing-box 是否支持多出口自动选择？</h5></div>
     <div class="panel-body">
-        SSR 支持多种加密方式，如 aes-256-cfb、chacha20、rc4-md5 等。建议优先选择 chacha20 系列算法，在移动设备上性能更佳，同时具有较强的安全性。<hr />    </div>
+        支持。通过配置路由规则和策略组，Sing-box 可以自动判断流量类型并选择最佳出口，实现智能分流和多节点负载均衡，提高访问效率。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mihomo 如何启用 TUN 模式？</h5></div>
+    <div class="panel-body">
+        在 Mihomo 的配置文件中启用 `tun:` 模块并安装系统驱动即可实现全局代理。TUN 模式可将所有系统流量导向代理核心，实现真正意义上的全局加速。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Clash 节点延迟检测如何优化网络访问？</h5></div>
+    <div class="panel-body">
+        Clash 会定期测试节点延迟，并结合策略组自动选择最优节点。避免访问高延迟或失效节点，提升网页浏览、视频播放和游戏速度及稳定性，提高整体网络体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>V2Ray 如何通过策略组优化访问速度？</h5></div>
+    <div class="panel-body">
+        策略组允许用户将节点按延迟、地域或用途分组。结合路由规则，V2Ray 会自动选择最优节点处理流量，提升访问速度并降低延迟，尤其在访问海外网站时效果明显。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Quantumult X 支持 VLESS 吗？</h5></div>
+    <div class="panel-body">
+        Quantumult X 目前官方未原生支持 VLESS，但通过手动修改配置或第三方脚本可实现兼容。若主要使用 VLESS 协议，可考虑使用 Sing-box 或 Shadowrocket 作为替代。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Trojan 的伪装域名为何重要？</h5></div>
@@ -182,34 +208,9 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         AEAD 加密可以防止数据被篡改和流量特征泄露，降低被检测风险。在封锁较高的网络环境中，保证节点长期可用，提高数据传输安全性和访问可靠性，增强用户体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 如何启用 TUN 模式？</h5></div>
-    <div class="panel-body">
-        在 Mihomo 的配置文件中启用 `tun:` 模块并安装系统驱动即可实现全局代理。TUN 模式可将所有系统流量导向代理核心，实现真正意义上的全局加速。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Quantumult X 支持 VLESS 吗？</h5></div>
-    <div class="panel-body">
-        Quantumult X 目前官方未原生支持 VLESS，但通过手动修改配置或第三方脚本可实现兼容。若主要使用 VLESS 协议，可考虑使用 Sing-box 或 Shadowrocket 作为替代。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 节点延迟检测如何优化网络访问？</h5></div>
-    <div class="panel-body">
-        Clash 会定期测试节点延迟，并结合策略组自动选择最优节点。避免访问高延迟或失效节点，提升网页浏览、视频播放和游戏速度及稳定性，提高整体网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>V2Ray 使用 mKCP 有哪些适合场景？</h5></div>
     <div class="panel-body">
-        mKCP 是基于 UDP 的传输协议，适合高丢包或不稳定网络环境。结合策略组使用，可优化网页浏览、视频播放和游戏体验，减少延迟和掉线，提高连接稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Sing-box 是否支持多出口自动选择？</h5></div>
-    <div class="panel-body">
-        支持。通过配置路由规则和策略组，Sing-box 可以自动判断流量类型并选择最佳出口，实现智能分流和多节点负载均衡，提高访问效率。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 如何通过策略组优化访问速度？</h5></div>
-    <div class="panel-body">
-        策略组允许用户将节点按延迟、地域或用途分组。结合路由规则，V2Ray 会自动选择最优节点处理流量，提升访问速度并降低延迟，尤其在访问海外网站时效果明显。    </div>
+        mKCP 是基于 UDP 的传输协议，适合高丢包或不稳定网络环境。结合策略组使用，可优化网页浏览、视频播放和游戏体验，减少延迟和掉线，提高连接稳定性。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -238,16 +239,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-4-9-free-high-speed-nodes.htm" title="Free SSR Clash - 4月9日23M/S|免费Trojan节点/Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点节点订阅分享">Free SSR Clash - 4月9日23M/S|免费Trojan节点/Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-27-clash-v2ray-ss-ssr.htm" title="Free SSR Clash - 3月27日18M/S|免费Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点节点订阅分享">Free SSR Clash - 3月27日18M/S|免费Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点/Clash节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-12-free-v2ray-subscribe.htm" title="Free SSR Clash - 4月12日22.6M/S|免费Clash节点/Trojan节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点节点订阅分享">Free SSR Clash - 4月12日22.6M/S|免费Clash节点/Trojan节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-17-node-share.htm" title="Free SSR Clash - 3月17日22.3M/S|免费Trojan节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点节点订阅分享">Free SSR Clash - 3月17日22.3M/S|免费Trojan节点/Clash节点/V2ray节点/Shadowrocket节点/SSR节点/Singbox节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-18-free-node-subscribe-links.htm" title="Free SSR Clash - 4月18日23M/S|免费Singbox节点/V2ray节点/Trojan节点/Clash节点/SSR节点/Shadowrocket节点节点订阅分享">Free SSR Clash - 4月18日23M/S|免费Singbox节点/V2ray节点/Trojan节点/Clash节点/SSR节点/Shadowrocket节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-9-free-node-subscribe-links.htm" title="Free SSR Clash - 3月9日19.5M/S|免费SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Trojan节点/Singbox节点节点订阅分享">Free SSR Clash - 3月9日19.5M/S|免费SSR节点/Clash节点/V2ray节点/Shadowrocket节点/Trojan节点/Singbox节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-10-free-v2ray-subscribe.htm" title="Free SSR Clash - 3月10日18.4M/S|免费SSR节点/Singbox节点/Trojan节点/V2ray节点/Shadowrocket节点/Clash节点节点订阅分享">Free SSR Clash - 3月10日18.4M/S|免费SSR节点/Singbox节点/Trojan节点/V2ray节点/Shadowrocket节点/Clash节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-8-node-share.htm" title="Free SSR Clash - 3月8日21.5M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Trojan节点/V2ray节点/Clash节点节点订阅分享">Free SSR Clash - 3月8日21.5M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Trojan节点/V2ray节点/Clash节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-10-free-node-subscribe-links.htm" title="Free SSR Clash - 4月10日19.1M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/SSR节点节点订阅分享">Free SSR Clash - 4月10日19.1M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/SSR节点节点订阅分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-13-free-v2ray-subscribe.htm" title="Free SSR Clash - 3月13日19.5M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Trojan节点/Singbox节点/Clash节点节点订阅分享">Free SSR Clash - 3月13日19.5M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Trojan节点/Singbox节点/Clash节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-24-clash-v2ray-ss-ssr.htm" title="Free SSR Clash - 4月24日18.5M/S|免费Trojan节点/V2ray节点/Clash节点/Shadowrocket节点/SSR节点/Singbox节点节点订阅分享">Free SSR Clash - 4月24日18.5M/S|免费Trojan节点/V2ray节点/Clash节点/Shadowrocket节点/SSR节点/Singbox节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-23-node-share-links.htm" title="Free SSR Clash - 3月23日18.8M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Trojan节点/Shadowrocket节点节点订阅分享">Free SSR Clash - 3月23日18.8M/S|免费Clash节点/Singbox节点/V2ray节点/SSR节点/Trojan节点/Shadowrocket节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-5-node-share.htm" title="Free SSR Clash - 3月5日18.1M/S|免费SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点节点订阅分享">Free SSR Clash - 3月5日18.1M/S|免费SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-2-free-high-speed-nodes.htm" title="Free SSR Clash - 4月2日20.4M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/V2ray节点/SSR节点/Clash节点节点订阅分享">Free SSR Clash - 4月2日20.4M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/V2ray节点/SSR节点/Clash节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-12-free-high-speed-nodes.htm" title="Free SSR Clash - 3月12日22M/S|免费Shadowrocket节点/Clash节点/Singbox节点/SSR节点/Trojan节点/V2ray节点节点订阅分享">Free SSR Clash - 3月12日22M/S|免费Shadowrocket节点/Clash节点/Singbox节点/SSR节点/Trojan节点/V2ray节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-16-free-subscribe-node.htm" title="Free SSR Clash - 4月16日18.9M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点/Trojan节点节点订阅分享">Free SSR Clash - 4月16日18.9M/S|免费Shadowrocket节点/Clash节点/SSR节点/Singbox节点/V2ray节点/Trojan节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-29-free-node-subscribe.htm" title="Free SSR Clash - 3月29日18.6M/S|免费Shadowrocket节点/Clash节点/Trojan节点/Singbox节点/V2ray节点/SSR节点节点订阅分享">Free SSR Clash - 3月29日18.6M/S|免费Shadowrocket节点/Clash节点/Trojan节点/Singbox节点/V2ray节点/SSR节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-7-free-subscribe-node.htm" title="Free SSR Clash - 3月7日20.3M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点/Trojan节点节点订阅分享">Free SSR Clash - 3月7日20.3M/S|免费Singbox节点/V2ray节点/SSR节点/Clash节点/Shadowrocket节点/Trojan节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-17-free-node-subscribe.htm" title="Free SSR Clash - 4月17日22.1M/S|免费SSR节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/Trojan节点节点订阅分享">Free SSR Clash - 4月17日22.1M/S|免费SSR节点/Shadowrocket节点/Singbox节点/V2ray节点/Clash节点/Trojan节点节点订阅分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-3-18-node-share.htm" title="Free SSR Clash - 3月18日21.3M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Trojan节点/Singbox节点节点订阅分享">Free SSR Clash - 3月18日21.3M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Clash节点/Trojan节点/Singbox节点节点订阅分享</a></li>
                     </ul>
     </div>
 </div>
@@ -259,7 +260,7 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">11</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
+                <h4><span class="badge" style="float: right;">18</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-03/" title="2026-03 归档">2026-03</a></h4>
