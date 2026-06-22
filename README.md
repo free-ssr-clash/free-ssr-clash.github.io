@@ -1,4 +1,4 @@
-# Free SSR Clash - 6月15日18.3M/S|免费Singbox节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点节点订阅分享  更新时间 2026-06-15 08:35:21
+# Free SSR Clash - 6月22日18M/S|免费Clash节点/Shadowrocket节点/SSR节点/V2ray节点/Singbox节点节点订阅分享  更新时间 2026-06-22 08:38:10
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://free-ssr-clash.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://free-ssr-clash.github.io/uploads/2026/06/0-20260615.yaml
-- https://free-ssr-clash.github.io/uploads/2026/06/1-20260615.yaml
-- https://free-ssr-clash.github.io/uploads/2026/06/2-20260615.yaml
-- https://free-ssr-clash.github.io/uploads/2026/06/3-20260615.yaml
-- https://free-ssr-clash.github.io/uploads/2026/06/4-20260615.yaml
+- https://free-ssr-clash.github.io/uploads/2026/06/0-20260622.yaml
+- https://free-ssr-clash.github.io/uploads/2026/06/1-20260622.yaml
+- https://free-ssr-clash.github.io/uploads/2026/06/2-20260622.yaml
+- https://free-ssr-clash.github.io/uploads/2026/06/3-20260622.yaml
+- https://free-ssr-clash.github.io/uploads/2026/06/4-20260622.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://free-ssr-clash.github.io/uploads/2026/06/0-20260615.txt
-- https://free-ssr-clash.github.io/uploads/2026/06/1-20260615.txt
-- https://free-ssr-clash.github.io/uploads/2026/06/2-20260615.txt
-- https://free-ssr-clash.github.io/uploads/2026/06/3-20260615.txt
-- https://free-ssr-clash.github.io/uploads/2026/06/4-20260615.txt
+- https://free-ssr-clash.github.io/uploads/2026/06/0-20260622.txt
+- https://free-ssr-clash.github.io/uploads/2026/06/1-20260622.txt
+- https://free-ssr-clash.github.io/uploads/2026/06/2-20260622.txt
+- https://free-ssr-clash.github.io/uploads/2026/06/3-20260622.txt
+- https://free-ssr-clash.github.io/uploads/2026/06/4-20260622.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://free-ssr-clash.github.io/uploads/2026/06/20260615.json
+- https://free-ssr-clash.github.io/uploads/2026/06/20260622.json
 
 ## 更多Clash节点订阅 ：
 
