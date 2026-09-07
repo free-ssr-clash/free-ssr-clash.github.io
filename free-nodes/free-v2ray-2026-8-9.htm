@@ -180,19 +180,9 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         TUN 模式会拦截系统 IP 层的所有流量，实现全局代理。相比 SOCKS5 只影响部分应用，TUN 可以覆盖游戏、视频和浏览器等所有流量，提高科学上网体验的全面性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Hiddify Next 如何实现用户流量分配？</h5></div>
-    <div class="panel-body">
-        管理员可为每个用户设置带宽和流量配额。超出限制时可自动降速或阻止访问，确保服务器资源合理分配，避免单用户占用过多带宽，提高整体网络公平性和效率。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>Clash 如何实现分应用代理？</h5></div>
     <div class="panel-body">
         Clash 可通过策略组和规则文件按应用分流，将特定应用的流量转发到指定节点。例如游戏走低延迟节点，网页浏览走普通节点，实现高效分流和优化网络速度。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>WinXray 是否支持订阅自动更新？</h5></div>
-    <div class="panel-body">
-        是的，WinXray 支持定时订阅更新。用户可在设置中开启自动更新周期（如每天或每小时），程序会自动下载新节点并替换旧配置，确保使用最新的线路资源。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Matsuri 节点延迟排序功能如何使用？</h5></div>
@@ -200,14 +190,9 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         Matsuri 会定期测速节点延迟，并根据结果排序。用户可选择延迟最低的节点进行访问，结合策略组实现自动切换，提高网络速度和连接稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Shadowrocket 的节点测速结果如何应用？</h5></div>
+    <div class="panel-heading"><h5>Clash 的规则模式有哪些？</h5></div>
     <div class="panel-body">
-        节点测速结果可用于策略组选择和自动切换，程序会根据延迟和丢包率选择最优节点。这样访问海外网站或流媒体时，可以保持高速和稳定的网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>PassWall2 的延迟测试如何影响策略组选择？</h5></div>
-    <div class="panel-body">
-        PassWall2 会根据节点延迟结果更新策略组的优先节点，自动选择延迟最低的节点处理流量。这样可以优化访问速度，提高网页浏览、视频和游戏体验的稳定性。<hr />    </div>
+        Clash 提供三种主要模式：Global（全局代理）、Rule（规则代理）和Direct（直连）。全局模式会让所有流量通过代理；规则模式根据规则文件自动分流；直连模式则完全不经过代理。用户可根据需求灵活切换。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>QuantumultX 支持按端口和协议分流吗？</h5></div>
@@ -220,9 +205,24 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
         在 rules 中添加 `DOMAIN-SUFFIX,example.com,DIRECT` 或 `DOMAIN-KEYWORD,example,DIRECT` 条目，将常用且可靠的站点设为直连，可减少代理绕行延迟并避免因代理造成的登录/验证问题。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 的规则模式有哪些？</h5></div>
+    <div class="panel-heading"><h5>PassWall2 的延迟测试如何影响策略组选择？</h5></div>
     <div class="panel-body">
-        Clash 提供三种主要模式：Global（全局代理）、Rule（规则代理）和Direct（直连）。全局模式会让所有流量通过代理；规则模式根据规则文件自动分流；直连模式则完全不经过代理。用户可根据需求灵活切换。    </div>
+        PassWall2 会根据节点延迟结果更新策略组的优先节点，自动选择延迟最低的节点处理流量。这样可以优化访问速度，提高网页浏览、视频和游戏体验的稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>WinXray 是否支持订阅自动更新？</h5></div>
+    <div class="panel-body">
+        是的，WinXray 支持定时订阅更新。用户可在设置中开启自动更新周期（如每天或每小时），程序会自动下载新节点并替换旧配置，确保使用最新的线路资源。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Shadowrocket 的节点测速结果如何应用？</h5></div>
+    <div class="panel-body">
+        节点测速结果可用于策略组选择和自动切换，程序会根据延迟和丢包率选择最优节点。这样访问海外网站或流媒体时，可以保持高速和稳定的网络体验。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Hiddify Next 如何实现用户流量分配？</h5></div>
+    <div class="panel-body">
+        管理员可为每个用户设置带宽和流量配额。超出限制时可自动降速或阻止访问，确保服务器资源合理分配，避免单用户占用过多带宽，提高整体网络公平性和效率。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -270,16 +270,16 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-7-19-clash-v2ray-ss-ssr.htm" title="Free SSR Clash - 7月19日21.6M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点/Trojan节点节点订阅分享">Free SSR Clash - 7月19日21.6M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点/Trojan节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-15-clash-v2ray-ss-ssr.htm" title="Free SSR Clash - 7月15日21.4M/S|免费Shadowrocket节点/Trojan节点/SSR节点/Singbox节点/Clash节点/V2ray节点节点订阅分享">Free SSR Clash - 7月15日21.4M/S|免费Shadowrocket节点/Trojan节点/SSR节点/Singbox节点/Clash节点/V2ray节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-16-node-share.htm" title="Free SSR Clash - 7月16日21.2M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点/Trojan节点节点订阅分享">Free SSR Clash - 7月16日21.2M/S|免费Shadowrocket节点/Singbox节点/SSR节点/Clash节点/V2ray节点/Trojan节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-24-free-subscribe-node.htm" title="Free SSR Clash - 7月24日20.5M/S|免费SSR节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点节点订阅分享">Free SSR Clash - 7月24日20.5M/S|免费SSR节点/Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-17-free-node-subscribe-links.htm" title="Free SSR Clash - 7月17日22.2M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/V2ray节点/Clash节点节点订阅分享">Free SSR Clash - 7月17日22.2M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/V2ray节点/Clash节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-7-27-clash-v2ray-ss-ssr.htm" title="Free SSR Clash - 7月27日19.2M/S|免费Clash节点/Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点节点订阅分享">Free SSR Clash - 7月27日19.2M/S|免费Clash节点/Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-6-node-share.htm" title="Free SSR Clash - 8月6日18.6M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/Trojan节点/SSR节点节点订阅分享">Free SSR Clash - 8月6日18.6M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/Trojan节点/SSR节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-20-free-high-speed-nodes.htm" title="Free SSR Clash - 8月20日18.3M/S|免费Singbox节点/Shadowrocket节点/SSR节点/Trojan节点/Clash节点/V2ray节点节点订阅分享">Free SSR Clash - 8月20日18.3M/S|免费Singbox节点/Shadowrocket节点/SSR节点/Trojan节点/Clash节点/V2ray节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-12-node-share.htm" title="Free SSR Clash - 8月12日18.1M/S|免费SSR节点/Singbox节点/Trojan节点/V2ray节点/Clash节点/Shadowrocket节点节点订阅分享">Free SSR Clash - 8月12日18.1M/S|免费SSR节点/Singbox节点/Trojan节点/V2ray节点/Clash节点/Shadowrocket节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-24-free-high-speed-nodes.htm" title="Free SSR Clash - 8月24日21.4M/S|免费Shadowrocket节点/Clash节点/Trojan节点/Singbox节点/SSR节点/V2ray节点节点订阅分享">Free SSR Clash - 8月24日21.4M/S|免费Shadowrocket节点/Clash节点/Trojan节点/Singbox节点/SSR节点/V2ray节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-v2ray-2026-8-7.htm" title="Free SSR Clash - 8月7日18.7M/S|免费Singbox节点/SSR节点/Trojan节点/Shadowrocket节点/Clash节点/V2ray节点节点订阅分享">Free SSR Clash - 8月7日18.7M/S|免费Singbox节点/SSR节点/Trojan节点/Shadowrocket节点/Clash节点/V2ray节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-v2ray-ss-ssr-2026-8-21.htm" title="Free SSR Clash - 8月21日18.9M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/Clash节点/Trojan节点/SSR节点节点订阅分享">Free SSR Clash - 8月21日18.9M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/Clash节点/Trojan节点/SSR节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/clash-v2ray-ss-ssr-2026-8-19.htm" title="Free SSR Clash - 8月19日19.4M/S|免费V2ray节点/Trojan节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点节点订阅分享">Free SSR Clash - 8月19日19.4M/S|免费V2ray节点/Trojan节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-9-3.htm" title="Free SSR Clash - 9月3日22.6M/S|免费Trojan节点/V2ray节点/Clash节点/SSR节点/Singbox节点/Shadowrocket节点节点订阅分享">Free SSR Clash - 9月3日22.6M/S|免费Trojan节点/V2ray节点/Clash节点/SSR节点/Singbox节点/Shadowrocket节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-28-free-high-speed-nodes.htm" title="Free SSR Clash - 8月28日18.8M/S|免费Trojan节点/Singbox节点/SSR节点/V2ray节点/Clash节点/Shadowrocket节点节点订阅分享">Free SSR Clash - 8月28日18.8M/S|免费Trojan节点/Singbox节点/SSR节点/V2ray节点/Clash节点/Shadowrocket节点节点订阅分享</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-8-16-free-subscribe-node.htm" title="Free SSR Clash - 8月16日21M/S|免费SSR节点/Trojan节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点节点订阅分享">Free SSR Clash - 8月16日21M/S|免费SSR节点/Trojan节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/clash-v2ray-ss-ssr-2026-8-1.htm" title="Free SSR Clash - 8月1日22.7M/S|免费Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点节点订阅分享">Free SSR Clash - 8月1日22.7M/S|免费Clash节点/Trojan节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点节点订阅分享</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-8-4-node-share.htm" title="Free SSR Clash - 8月4日21.5M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/SSR节点/V2ray节点/Clash节点节点订阅分享">Free SSR Clash - 8月4日21.5M/S|免费Singbox节点/Shadowrocket节点/Trojan节点/SSR节点/V2ray节点/Clash节点节点订阅分享</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-8-22-free-node-subscribe.htm" title="Free SSR Clash - 8月22日22.3M/S|免费Singbox节点/Clash节点/Trojan节点/SSR节点/Shadowrocket节点/V2ray节点节点订阅分享">Free SSR Clash - 8月22日22.3M/S|免费Singbox节点/Clash节点/Trojan节点/SSR节点/Shadowrocket节点/V2ray节点节点订阅分享</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -291,10 +291,10 @@ IPLC、IEPL中转，点对点专线连接。高速冲浪，科学上网不二选
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">17</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
+                <h4><span class="badge" style="float: right;">4</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">19</span> <a href="/date/2026-07/" title="2026-07 归档">2026-07</a></h4>
+                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-08/" title="2026-08 归档">2026-08</a></h4>
             </li>
                     </ul>
     </div>
